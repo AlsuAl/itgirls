@@ -1,0 +1,112 @@
+.site{
+    font-family:'Roboto Slab', serif;
+    display: grid;
+    margin: auto;
+}
+.button{
+    display: flex;
+    background-color: #5222D0;
+    border-radius: 100px;
+    font-size: medium;
+    color: #FFFFFF;
+    border: none;
+    font-weight: bolder;
+    padding: 15px;
+    width: 10em;
+    height: 3em;
+    justify-content: center;
+    align-self: center;
+}
+.header{
+    display: grid;
+    max-width: 100%;
+    justify-content:space-around;
+    align-items: start;
+    grid-template-columns: 50% 50%;
+    padding: 30px;
+    margin: 20px;
+    height: 10vh;
+}
+.logo{
+    display: grid;
+}
+.upperbutton{
+    display: grid;
+    justify-content: end;
+}
+.headline{
+    display: grid;
+    font-size: 1.5em;
+    padding: 20px;
+    margin: 30px;
+    height: 10vh;
+    font-family:'Montserrat',sans-serif;
+    font-weight: 600;
+}
+span{
+    display: grid;
+    font-weight: 100;
+}
+.footer{
+    display: grid;
+    height: 10vh;
+    padding: 20px;
+    margin: 30px;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-weight:thin;
+}
+.cardfolder{
+    display: grid;
+    padding: 20px;
+    margin: 30px;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card{
+    display: grid;
+}
+.discription{
+    display: grid;
+    padding: 20px;
+    margin: 30px;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.news{
+    display: grid;
+    background-color: #EC615B;
+    padding: 20px;
+    gap: 10px;
+    justify-content:start;
+}
+.newsheadline{
+    color: #FFFFFF;
+}
+input{
+    height:30px;
+    width: 25vw;
+}
+p{
+    font-weight: 100;
+}
+h2{
+    font-family:'Montserrat',sans-serif;
+    font-weight: 700;
+}
+.games{
+    display: grid;
+    border-style: solid;
+    border-color: red;
+    padding: 20px;
+}
+.card:first-child{
+    border-style: solid;
+    border-color: red;
+    margin: auto;
+    padding: 40px;
+}
+.mainline{
+    display: grid;
+    grid-template-rows: 60% 40%;
+}
