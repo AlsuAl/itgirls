@@ -1,0 +1,18 @@
+.services{
+    display: grid;
+    color: dimgrey;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 30px;
+    justify-content: center;
+    line-height: 1.5;
+}
+.cards{
+    display: grid;
+    text-align: center;
+    gap: 20px;
+}
+.card-discription{
+    display: grid;
+    align-items: baseline;
+}
