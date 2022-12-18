@@ -1,0 +1,14 @@
+input {
+    font-size: 16px;
+    padding: 4px;
+  }
+  .row {
+    padding: 5px 0;
+  }
+  .row .value1 {
+    display: inline-block;
+    min-width: 300px;
+  }
+  .row input {
+    width: 100%;
+  }
