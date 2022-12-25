@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <title>Кошки</title>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>Имя</legend>
+        <div>
+            <label for="petname">Кличка питомца*</label>
+            <input type="text" id="petname" pattern="/^[А-Я]{1}[а-яё]{1,23}|[A-Z]{1}[a-z]{1,23})$/" required>
+            <div>
+            <label for="name">Имя владельца*</label>
+            <input type="text" id="name" pattern="/^[А-Я]{1}[а-яё]{1,23}|[A-Z]{1}[a-z]{1,23})$/" required></div>
+            <div>
+            <label for="contacts">Контакты владельца*</label>
+            <input type="tel" name="phone" placeholder="Телефон" pattern="/^\+?(\d{1,3})?[- .]?\(?(?:\d{2,3})\)?[- .]?\d\d\d[- .]?\d\d\d\d$/" minlength="10" maxlength="20" required/></div>
+        </div>
+    </fieldset>
+<div>
+<label for="type">Выберите породу</label>
+<select name="type" id="type">
+    <option value="">Метис</option>
+    <option value="">Американский бобтейл</option>
+    <option value="">Бенгальская кошка</option>
+    <option value="">Донской сфинкс</option>
+    <option value="">Корниш рекс</option>
+    
+</select>
+</div>
+<div>
+    <p>Чем питается?</p>
+        <div>
+            <input type="checkbox" id="food1" name="food" >
+            <label for="food1">Сухой корм</label>
+        </div>
+        <div>
+            <input type="checkbox" id="food2" name="food">
+            <label for="food2">Влажный корм</label>
+        </div>
+        <div>
+            <input type="checkbox" id="food3" name="food">
+            <label for="food3">Натуральный корм</label>
+        </div>
+        </div>
+<div>
+    <p>Пол питомца*</p>
+    <div>
+        <input type="radio" id="female" name="sex" required>
+        <label for="female">Самка</label>
+    </div>
+    <div>
+         <input type="radio" id="male" name="sex" required>
+         <label for="male">Самец</label>
+    </div>
+
+</div>
+    <label for="comment">Комментарий</label>
+    <div>
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+    </div>
+<div>
+    <label for="foto">Можете добавить фотографию питомца</label>
+    <input type="file" id="foto" accept="jpg/png">
+</div>
+    <div>
+    <button onclick="checkAll()">Сохранить</button>
+    </div>
+
+    
+</form>
+<script src="./script.js"></script>
+</body>
+</html>
