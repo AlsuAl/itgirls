@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>Кошки</title>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>Имя</legend>
+        <div>
+            <label for="petname">Кличка питомца*</label>
+            <input type="text" id="petname"  required>
+            <div>
+            <label for="name">Имя владельца*</label>
+            <input type="text" id="name"  required></div>
+            <div>
+            <label for="contacts">Контакты владельца*</label>
+            <input type="tel" name="phone" id="phone" placeholder="Телефон"  minlength="10" maxlength="20" required/></div>
+        </div>
+    </fieldset>
+<div>
+    <p>Пол питомца*</p>
+    <div>
+        <input type="radio" id="female" name="sex" class="sex"required>
+        <label for="female">Самка</label>
+    </div>
+    <div>
+         <input type="radio" id="male" name="sex" class="sex" required>
+         <label for="male">Самец</label>
+    </div>
+
+    <div>
+    <button onclick="getAll()">Сохранить</button>
+    </div>
+
+</form>
+<script src="./script.js"></script>
+</body>
+</html>
