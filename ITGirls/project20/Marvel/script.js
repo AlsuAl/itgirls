@@ -47,15 +47,6 @@ for(let hero of heroes){
     </div>`;
 
     document.getElementById("heroeslist").innerHTML=dccomics;
-    let btn = document.querySelectorAll('.btnSavePoints');
-    let points=document.querySelectorAll('.points');  
-
-    pointsvalue=points[counter].value
-    id=points[counter].id
-    localStorage.setItem(id,pointsvalue);
-    counter++;
-    function check() {}
-}
-
+    }
 }); 
 
