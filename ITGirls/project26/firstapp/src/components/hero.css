@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(88, 88, 125);
+}
+.hero{
+    padding: 20px;
+    border: 2px solid rgb(17, 17, 31);
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(38, 32, 75);
+    margin: 10px;
+}
+.charactername{
+    font-size: large;
+    font-weight: 800;
+}
