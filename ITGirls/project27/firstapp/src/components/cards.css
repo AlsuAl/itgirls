@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.tarif-card {
+  width: 30%;
+  margin: 20px;
+  padding: 15px;
+  gap: 5px;
+  display: grid;
+  color: aliceblue;
+  grid-template-rows: 1fr;
+  align-items: center;
+  text-align: center;
+}
+.tarif-card .name {
+  background-color: rgba(2, 37, 39, 0.547);
+}
+.tarif-card .price {
+  background-color: rgb(2, 37, 39);
+}
+
+.tarif-card.limit {
+  color: black;
+}/*# sourceMappingURL=cards.css.map */
