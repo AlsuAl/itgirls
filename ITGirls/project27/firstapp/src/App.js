@@ -9,7 +9,9 @@ function App() {
     <div className="App">
       {
      cards.map(card=>
-     <Card  key={card.price} name={card.name} price={card.price}  limit={card.limit} text={card.text}></Card>
+     <Card  key={card.price} name={card.name} price={card.price}  limit={card.limit} text={card.text} 
+     isSelected={card.isSelected}>
+    </Card>
      )
       }
     </div>
