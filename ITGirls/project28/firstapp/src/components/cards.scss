@@ -1,0 +1,54 @@
+$font-main: "Courier New", Courier, monospace;
+$text: center;
+body {
+  font-family: $font-main;
+}
+.cardbody {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.tarif-card {
+  padding: 5px;
+  gap: 5px;
+  display: grid;
+  color: aliceblue;
+  align-self: flex-start;
+  text-align: $text;
+  .name {
+    height: 35px;
+    padding-top: 10px;
+    text-align: $text;
+    align-items: center;
+    background-color: #089292;
+  }
+  .price {
+    padding-top: 10px;
+    text-align: $text;
+    background-color: rgb(2, 37, 39);
+    height: 65px;
+    align-items: center;
+    span {
+      font-size: x-large;
+      font-weight: 800;
+    }
+  }
+  .limit {
+    color: black;
+    text-align: $text;
+  }
+  .text {
+    color: black;
+    background-color: rgba(84, 83, 83, 0.451);
+    text-align: $text;
+  }
+}
+.selected {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  .name {
+    background-color: #a40909;
+    height: 45px;
+  }
+  .price {
+    background-color: #ef0404;
+  }
+}
