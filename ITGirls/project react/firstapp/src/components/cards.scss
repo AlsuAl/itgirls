@@ -1,0 +1,52 @@
+@import "header.scss";
+.cards {
+  display: grid;
+  align-items: center;
+  width: 60vw;
+  justify-content: center;
+
+  .button {
+    background-color: $bgcolor;
+    color: $fcolor;
+    border-radius: $bordr;
+    padding: 5px;
+    width: 5vw;
+    height: 5vh;
+    border: none;
+    text-align: center;
+  }
+  .button:hover {
+    color: #0f0bc7;
+  }
+  .arrow-buttons {
+    display: flex;
+    justify-content: center;
+  }
+}
+.card {
+  background-color: $bgcolor;
+  color: $fcolor;
+  display: grid;
+  grid-template-rows: 1fr;
+  padding: 35px;
+  gap: 30px;
+  margin: 20px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-radius: $bordr;
+  width: 40%;
+  .button {
+    background-color: $bgcolor;
+    color: $fcolor;
+    border-radius: $bordr;
+    padding: 5px;
+    width: 5vw;
+    height: 5vh;
+    border: none;
+    text-align: center;
+  }
+  .button:hover {
+    color: #0f0bc7;
+  }
+}

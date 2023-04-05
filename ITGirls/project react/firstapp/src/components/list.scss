@@ -1,0 +1,21 @@
+@import "header.scss";
+
+.wordslist {
+  display: grid;
+  justify-content: space-between;
+  .list {
+    background: rgba(65, 65, 93, 0);
+    color: #fdfcf8;
+    border-radius: 30px;
+    padding: 10px;
+    width: 5vw;
+    height: 5vh;
+    border: none;
+    text-align: center;
+  }
+  .list:hover {
+    background-color: #ffffff;
+    color: #0f0bc7;
+    box-shadow: inset 0 0 0 3px #ccd4d7;
+  }
+}
