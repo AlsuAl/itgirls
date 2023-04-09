@@ -1,32 +1,38 @@
-export const cards = [
+const data = [
   {
-    image: "",
+    id: "1",
     word: "rojo",
     transcription: "['roxo]",
     translation: "red",
+    theme: "colors",
   },
   {
-    image: "",
+    id: "2",
     word: "verde",
     transcription: "['bɛɾðe]",
     translation: "green",
+    theme: "colors",
   },
   {
-    image: "",
+    id: "3",
     word: "azul",
     transcription: "[a'sul]",
     translation: "blue",
+    theme: "colors",
   },
   {
-    image: "",
+    id: "4",
     word: "negro",
     transcription: "['neɤɾo]",
     translation: "black ",
+    theme: "colors",
   },
   {
-    image: "",
+    id: "5",
     word: "blanco",
     transcription: "['blãnko]",
     translation: "white ",
+    theme: "colors",
   },
 ];
+export default data;

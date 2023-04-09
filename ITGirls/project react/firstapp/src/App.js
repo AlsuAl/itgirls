@@ -1,40 +1,23 @@
 import "./App.css";
 import "./components/cards.scss";
 import "./components/header.scss";
-import "./components/list";
+import "./components/list.scss";
 import Search from "./components/header.jsx";
 import Card from "./components/cards.jsx";
-//import List from "./components/list.jsx";
-import { cards } from "./components/data.js";
+import List from "./components/list.jsx";
 
 function App() {
   return (
     <div className="App">
-      <div className="header">
-        <Search></Search>
-      </div>
-      <div className="wordslist">
-        {/* {list.map((list) => (
-          <List name={list.name} isSelected={list.isSelected}></List>
-        ))} */}
-      </div>
-      <div>
-        <div className="result"></div>
-      </div>
-      <div className="cards">
-        <div>
-          {cards.map((card) => (
-            <Card
-              word={cards.word}
-              transcription={cards.transcription}
-              translation={cards.translation}
-            ></Card>
-          ))}
-          <div />
-          <div className="arrow-buttons">
-            <button className="button buttonleft">←</button>
-            <button className="button buttonright">→</button>
-          </div>
+      <div className="Application">
+        <div className="header">
+          <Search></Search>
+        </div>
+        <div className="cards">
+          <Card></Card>
+        </div>
+        <div className="wordslist">
+          <List></List>
         </div>
       </div>
     </div>
