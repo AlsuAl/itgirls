@@ -4,7 +4,6 @@ import "./header.scss";
 function Search(props) {
   const [inputValue, setInputValue] = useState("");
   const [apiResult, setApiResult] = useState("");
-  // const setApiResult = response.data.translatedText;
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -39,7 +38,7 @@ function Search(props) {
           alt="logo"
         />
       </div>
-      <div onSubmit={handleSubmit} className="searchbody">
+      <form onSubmit={handleSubmit} className="searchbody">
         <input
           className="search-input"
           type="text"
@@ -53,7 +52,7 @@ function Search(props) {
         <button type="submit" className="button searchbutton">
           Search
         </button>
-      </div>
+      </form>
     </div>
   );
 }
