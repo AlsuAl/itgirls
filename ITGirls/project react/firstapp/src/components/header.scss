@@ -23,7 +23,7 @@ $fcolor: #fdfeff;
       border-radius: $bordr;
       padding: 5px;
       width: 5vw;
-      height: 5vh;
+      height: 15px;
       border: none;
       text-align: center;
     }
@@ -37,9 +37,9 @@ $fcolor: #fdfeff;
       background-color: $bgcolor;
       border-radius: $bordr;
       max-width: 70vw;
-      height: 10vh;
+      height: 100%;
       border: none;
-      font-size: 600;
+      font-size: large;
       padding-left: 10px;
       &:focus {
         outline: none;
@@ -48,11 +48,12 @@ $fcolor: #fdfeff;
     }
     .searchbutton {
       width: 10vw;
+      height: 25px;
       margin-left: 30px;
     }
     .result {
       display: flex;
-      height: 10vh;
+      min-height: 15px;
       background-color: $bgcolor;
       border-radius: $bordr;
       text-align: center;

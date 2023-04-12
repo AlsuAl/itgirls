@@ -9,7 +9,7 @@ const data = [
   {
     id: "2",
     word: "verde",
-    transcription: "['bɛɾðe]",
+    transcription: "['beɾðe]",
     translation: "green",
     theme: "colors",
   },

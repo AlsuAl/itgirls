@@ -1,21 +1,34 @@
 @import "header.scss";
-
 .card {
-  background-color: #fff;
-  color: $fcolor;
+  background-color: #ffff;
+  color: #000000;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 0.5fr 1fr;
   padding: 35px;
   gap: 30px;
   margin: 20px;
   justify-content: center;
   text-align: center;
   align-items: center;
+  width: 60%;
   border-radius: $bordr;
-  width: 40%;
+  .card-body {
+    background-color: #ffff;
+    border-radius: $bordr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .card-layout {
+    background-color: $bgcolor;
+    display: grid;
+    border-radius: $bordr;
+    padding: 35px;
+    gap: 30px;
+    margin: 20px;
+  }
   .button {
-    background: rgba(65, 65, 93, 0);
-    color: #000000e4;
+    background: $bgcolor;
+    color: $fcolor;
     border-radius: $bordr;
     padding: 5px;
     width: 5vw;
@@ -24,8 +37,11 @@
     text-align: center;
   }
   .button:hover {
-    background-color: $bgcolor;
-    color: $fcolor;
+    background-color: rgba(65, 65, 93, 0);
+    color: #000000e4;
+  }
+  .hidden {
+    display: none;
   }
 }
 .arrow-buttons {
