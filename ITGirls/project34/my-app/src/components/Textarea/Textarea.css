@@ -1,0 +1,43 @@
+.form {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: column;
+  border-radius: 24px;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  width: 400px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  margin: auto;
+}
+.newcomment {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100px;
+  width: 90%;
+}
+.btn {
+  border-radius: 24px;
+  background-color: darkorange;
+  border: none;
+  max-width: 100px;
+}
+.commentList {
+  display: flex;
+
+  flex-direction: column;
+  border-radius: 24px;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  width: 400px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  margin: auto;
+}
+.highlightedComment {
+  color: crimson;
+}
